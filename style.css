@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 30px auto;
+}
+
+header {
+    width: 1100px;
+    height: 100px;
+    background-color: rgb(255, 174, 0);
+    margin-bottom: 50px;
+}
+
+.home, .about, .products, .gallery, .help, .contact {
+    margin-left: 85px;
+    margin-top: 40px;        
+    margin-right: 50px;
+    text-align: center;
+    display: flex;
+}
+
+.navmenu{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+p {
+    line-height: 28px;
+}
+
+main button {
+    float: right;
+    background-color: white;
+    color: rgb(243, 143, 12);
+    border: 1px solid gray;
+}
+
+main button:active{
+    background-color: rgb(209, 209, 209);
+    border: 1px solid rgb(238, 255, 0);
+}
+
+.sitename {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font: 40px sans-serif;
+}
+
+nav {
+    display: flex;
+    width: 600px;
+}
+
+.container {
+    display: flex;
+}
+
+main {
+    width: 660px;
+    padding: 20px;
+
+}
+
+ul {
+    padding-left: 10px;
+}
+
+.left li{
+    margin-top: 15px; 
+    box-shadow: 0px 6px 2px -4px rgba(131, 116, 116, 0.219)
+}
+
+.left {
+    width: 300px;
+    margin-right: 20px;
+    padding: 20px;
+} 
+
+aside li, main li, footer li {
+    list-style-image: url(img/li.gif);
+}
+
+aside li{
+    margin: 0px;
+}
+
+img {
+    width: 1100px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+main a, aside a, footer a {
+    text-decoration: underline;
+    color: rgb(243, 189, 12);
+}
+
+.subtitle{
+    color: gray;
+}
+
+footer {
+    border-top: 1px solid rgb(224, 224, 224);
+    padding: 30px 0;
+    text-align: center;
+}
